@@ -8,6 +8,8 @@ You can find that here: https://github.com/jvpernis/esp32-ps3
 
 This repo can be downloaded as a zip file and imported into the Arduino IDE as a library.
 
+---
+
 ## Installation
 The instructions on how to do this are base off what can be found [here](https://github.com/jvpernis/esp32-ps3/issues/3#issuecomment-517141523)
 > The instructions below may no longer work. If they do not work for you, try applying changes from the various forks of this repo.
@@ -22,6 +24,8 @@ The instructions on how to do this are base off what can be found [here](https:/
     1. Click on the "Code" button in the top right of this page
     1. Select "Download Zip" (It's always a good idea to look through the code on this page first to make sure you know what you're downloading)
     1. In the Arduino IDE, navigate to `Sketch -> Include Library -> Add .ZIP Library`, then select the file you just downloaded 
+
+---
 
 ## Pairing the PS4 Controller:
 When a PS4 controller is 'paired' to a PS4 console, it just means that it has stored the console's Bluetooth MAC address, which is the only device the controller will connect to. Usually, this pairing happens when you connect the controller to the PS4 console using a USB cable, and press the PS button. This initiates writing the console's MAC address to the controller.
