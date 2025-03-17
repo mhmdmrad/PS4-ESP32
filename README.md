@@ -2,7 +2,7 @@
 Use a PS4 controller with an ESP32
 
 This is heavily based on the work of Jeffery Pernis to connect a PS3 controller to an ESP32.
-You can find that here: https://github.com/jvpernis/esp32-ps3
+You can find that here: https://github.com/jvpernis/esp32-ps3 
 
 [Here's a video](https://youtu.be/BmlKBs27pgE) about how this library was made.
 
@@ -28,7 +28,7 @@ The instructions on how to do this are base off what can be found [here](https:/
 ---
 
 ## Pairing the PS4 Controller:
-When a PS4 controller is 'paired' to a PS4 console, it just means that it has stored the console's Bluetooth MAC address, which is the only device the controller will connect to. Usually, this pairing happens when you connect the controller to the PS4 console using a USB cable, and press the PS button. This initiates writing the console's MAC address to the controller.
+ When a PS4 controller is 'paired' to a PS4 console, it just means that it has stored the console's Bluetooth MAC address, which is the only device the controller will connect to. Usually, this pairing happens when you connect the controller to the PS4 console using a USB cable, and press the PS button. This initiates writing the console's MAC address to the controller.
 
 Therefore, if you want to connect your PS4 controller to the ESP32, you either need to figure out what the Bluetooth MAC address of your PS4 console is and set the ESP32's address to it, or change the MAC address stored in the PS4 controller.
 
@@ -41,4 +41,4 @@ void setup()
     PS4.begin("1a:2b:3c:01:01:01");
     Serial.println("Ready.");
 }
-```
+
