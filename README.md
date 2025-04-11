@@ -1,4 +1,4 @@
-# PS4-esp32
+# PS4-ESP32
 Use a PS4 controller with an ESP32
 
 This is heavily based on the work of Jeffery Pernis to connect a PS3 controller to an ESP32.
