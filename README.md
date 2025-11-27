@@ -1,4 +1,4 @@
-# IN PROGRESS...
+
 # PS4-ESP32
 Use a PS4 controller with an ESP32
 
